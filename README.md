@@ -65,6 +65,14 @@ B. Activate .venv
 C. Install dependencies into .venv
 D. Select VS Code interpreter to use .venv
 
+```shell
+py -m venv .venv
+.\.venv\Scripts\activate
+py -m pip install --upgrade pip setuptools wheel
+py -m pip install --upgrade -r requirements.txt
+```
+
+
 ## Step 4: Schema Design and Database Initialization
 
 Design a schema with at least two related tables, including foreign key constraints.
